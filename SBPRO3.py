@@ -10,27 +10,27 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import youtube_dl
 
-cl = LineClient(authToken='EzNsvhKnXh2kE1QAEQre.mDIRQD+WthuKlYOGL7ITRG.ECuNsVJ3VqFLUkeSZ+OWZiB')   #PH-13
+cl = LineClient(authToken='EzNsvhKnXh2kE1QAEQre.mDIRQD+WthuKlYOGL7ITRG.ECuNsVJ3VqFLUkeSZ+OWZiBW95o8FKCYR21R2ZqP1wk=')   #PH-13
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='EzUysz8x6gszQ32n9hVb.Sp/s6yipA4kWnf6V/q/VJTOmmZi3L4=')
+ki = LineClient(authToken='EzUysz8x6gszQ32n9hVb.Sp/s6yipA4kI8lGDz1Jc/W.GlKYnT+zyzf16tz8FCA/irC8Wnf6V/q/VJTOmmZi3L4=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken='EzDin0ucvMKKenMdWiJ5.DGWAJ8YwR3dlIsUkon0fHq.g8uGJo+DuMNq8Jrt+4p75GwQo/le5/BtIerDM=')
+kk = LineClient(authToken='EzDin0ucvMKKenMdWiJ5.DGWAJ8YwR3dlIsUkon0fHq.gGJhTKS8uGJo+DuMNq8Jrt+4p75GwQo/le5/BtIerDM=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='EzxlwtfshZhYHEANmOJ1.cP/gzSQHhVdSoTyWasIgQOJv29Z/0CDDMP6H1zgu6NL1jo=')
+kc = LineClient(authToken='EzxlwtfshZhYHEANmOJ1.cP/gzSsYbkartt1P7xeFuq.cqbQHhVdSoTyWasIgQOJv29Z/0CDDMP6H1zgu6NL1jo=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-sw = LineClient(authToken='EzyQdYiAyyY4abHoMTp2.nEMHmGbI86rEKASUeMNs3NBd1Dyk3Dn1tFoN/mHveefCTd5yj/5H5s=')
+sw = LineClient(authToken='EzyQdYiAyyY4abHoMTp2.nEMHmGbI86rEKASUeMNhyG.xDhMTz80s3NBd1Dyk3Dn1tFoN/mHveefCTd5yj/5H5s=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
