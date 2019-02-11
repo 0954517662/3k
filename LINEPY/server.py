@@ -31,7 +31,7 @@ class LineServer(object):
     PHONE_TYPE  = ApplicationType.IOS
     PHONE_NAME  = 'CHROMEOS\t2.1.5\t"+nama+"\t1'
     CARRIER     = '51089, 1-0'
-    SYSTEM_NAME = 'PH-13'
+    SYSTEM_NAME = 'BY MAX'
     IP_ADDR     = '8.8.8.8'
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
 
